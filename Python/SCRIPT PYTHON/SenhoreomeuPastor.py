@@ -1,0 +1,7 @@
+print ()
+print ('O senhor é o meu pastor e nada me faltará.')
+print ('Deitar me faz em verdes pastos\nGuia me mansamente às águas tranquilas\nRefrigera a minha alma\nGuia me pelas veredas da justiça por amor do seu nome')
+print ()
+print ('Ainda que eu andasse pelo vale da sombra da morte não temeria mal algum\nPorque Vós estais comigo\nA tua vara e o teu cajado me consolam\nPreparas uma mesa para mim na presença dos meus inimigos\nUnges a minha cabeça com óleo\nO meu cálice transborda ')
+print ()
+print ('Certamente que a bondade e a misericórdia me seguirão todos os dias de minha vida\nE habitarei na casa do senhor por longos dias')
