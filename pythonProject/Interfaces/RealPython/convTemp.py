@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python
 # IMPORTA O tkinter e cria uma nova janela
 import tkinter as tk
 
