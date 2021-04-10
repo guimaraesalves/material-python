@@ -49,7 +49,85 @@ def dias(n_meses):
 assert 210 == dias(7)
 
 
+# Lista de Exercícios Nível 1
+
+# Funções para as quatros operações matemáticas
+# -*- coding: utf-8 -*-
+
+# as funções são tão pequenas e tão concisas
+# que nem precisam de comentários
+
+def somar(num, add):
+    return num + add
+
+def subtrair(num, sub):
+    return num - sub
+
+def multiplicar(num, mult):
+    return num * mult
+
+def dividir(num, divisor):
+    return num / divisor
+
+#
+# Testes
+#
+assert 12 == somar(10, 2)
+assert 8 == subtrair(10, 2)
+assert 20 == multiplicar(10, 2)
+assert 5 == dividir(10, 2)
+
+
+ # -*- coding: utf-8 -*-
+
+#
+# Retorna o custo final da fabricação de um carro
+#
+def custoFinal(n):
+    custoFabrica = 10000.00
+    perceDistribuidor = (0.28 * 10000)
+    percImpostos = (0.45 * 10000)
+    return custoFabrica + perceDistribuidor + percImpostos
+
+#
+# Teste
+#
+assert 17300 == custoFinal(10000), "'custoFinal' deve ser igual a 17300"
 
 
 
+'''
+Faça um programa para calcular o juros simples segundo a fórmula abaixo.
+
+J = C.i.n
+Onde:
+J = juros,
+C = capital,
+i = taxa de empréstimo
+n = períodos
+
+Vamos imaginar o seguinte cenário: um empréstimo de R$ 16000.00 sobre a taxa de 4% durante 4 meses.
+
+'''
+
+def juros_simples(c, i, n):
+    j = c * i * n
+    return j
+
+
+assert 2560 == juros_simples(16000, 0.04, 4), "juros de ser igual a 2560"
+
+'''
+Faça um algoritmo que calcule o reajuste de um salário, utilize os seguintes dados:
+salário = 1000.00
+reajuste = 15%
+
+'''
+
+def reajustar_salario(sal, reaj):
+    return sal * reaj
+
+assert  150 == reajustar_salario(1000, 0.15), 'reajustar_salario de retornar 150'
+
+# Lista de Exercícios Nível 2
 
