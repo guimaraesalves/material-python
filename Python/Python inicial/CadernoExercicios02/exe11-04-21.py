@@ -73,3 +73,34 @@ x2(a, b, c)
 
 # LISTA DE EXERCÍCIOS NÍVEL 3
 
+# Faça um programa para identificar se um número é primo.
+
+def ehPrimo(num):
+    s = 0
+    for i in range(1, num + 1):
+        if num % i == 0:
+            s = s + 1
+            print(s)
+    if s <= 2:
+        return print("é primo")
+    else:
+        return print('não é primo')
+
+#
+# Testes
+#
+
+ehPrimo(36)
+
+
+# ALGORITMO PARA SOMAR VETOR
+v = [10, 20, 30 , 0]
+def soma_vetor(v):
+    s = 0
+    for i in v:
+        s = s + i
+    return print (s)
+
+
+soma_vetor(v)
+
