@@ -83,4 +83,24 @@ def somarLista(lista):
 lista = [10, 20, 30, 0]
 assert 60 == somarLista(lista)
 ```
+# MDC máximo divisor comum
 
+Faça um programa para calcular o MDC (máximo divisor comum) entre dois números.
+
+Aconselho a utilizar o método de divisões sucessivas, pois você verá que a forma como costumamos resolver problemas matemáticos na mão nem sempre é o melhor caminho quando estamos codificando.
+
+```python
+# -*- coding: utf-8 -*-
+
+#
+# Função que calcula o MDC entre dois números
+#
+def mdc(num1, num2):
+    pass
+
+#
+# Testes
+#
+assert 3 == mdc(24, 9)
+assert 10 == mdc(30, 20)
+```
